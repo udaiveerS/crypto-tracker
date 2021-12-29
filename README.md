@@ -2,15 +2,17 @@
 
 Crypto-tracker Python library for tracking key data (social/price/wallets) for alpha
 
-## Track Twitter follows of key accounts (SMEs) **complete**
+## Track Twitter follows of key accounts (SMEs) [:heavy_check_mark:]
 - can get early view of projects launching
 - track trends and group follows across multiple days
 
-## Track/make custom indices from specific coins from Coin Geko **not started**
-- CG has a free api
+## Track specific coins from Coin Geko [:heavy_multiplication_x:]
+- Make custom indicies of coins 
+- Track volumes to catch sector roations  
 
-## Track wallet evens like new token/NFT purches of smart wallets  **not started**
-- nansen provides api
+## Track wallet evens like new token/NFT purches of smart wallets  [:heavy_multiplication_x:]
+- Alerts for when whales distribute tokens 
+- Add coins to reserch funnel 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
