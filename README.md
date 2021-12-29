@@ -3,7 +3,7 @@
 Crypto-tracker Python library for tracking key data (social/price/wallets) for alpha
 
 ## Track Twitter follows of key accounts (SMEs) **complete**
-- can get early view to projects launching
+- can get early view of projects launching
 - track trends and group follows across multiple days
 
 ## Track/make custom indices from specific coins from Coin Geko **not started**
