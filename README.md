@@ -7,8 +7,8 @@ Crypto-tracker Python library for tracking key data (social/price/wallets) for a
 - track trends and group follows across multiple days
 
 ## Track specific coins from Coin Geko [:heavy_multiplication_x:]
-- Make custom indicies of coins 
-- Track volumes to catch sector roations  
+- Make custom indices of coins 
+- Track volumes to catch sector rotations  
 
 ## Track wallet evens with nansen [:heavy_multiplication_x:]
 - Alerts for when whales distribute tokens in profolio  

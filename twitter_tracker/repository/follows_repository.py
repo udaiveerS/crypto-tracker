@@ -11,7 +11,7 @@ from django.db.models import Q
 from twitter_tracker.models import Follows
 
 # Get an instance of a logger
-logger = logging.getLogger("root")
+logger = logging.getLogger(__name__)
 
 
 class FollowsRepository:

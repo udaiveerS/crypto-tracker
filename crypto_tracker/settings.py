@@ -107,7 +107,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': '/Users/udaiveer/logs/twitter-alpha/twitter-alpha.log',
+            'filename': '/Users/udaiveer/logs/crypto-tracker/crypto-tracker.log',
             'formatter': 'simple'
         },
     },

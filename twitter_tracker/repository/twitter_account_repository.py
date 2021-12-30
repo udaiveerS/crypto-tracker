@@ -7,7 +7,7 @@ from twitter_tracker.utils.utils import today_date
 from django.db.models import Q
 
 # Get an instance of a logger
-logger = logging.getLogger("root")
+logger = logging.getLogger(__name__)
 
 
 class TwitterAccountRepository:

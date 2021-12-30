@@ -6,7 +6,7 @@ from twitter_tracker.models import TwitterAccount
 from twitter_tracker.repository.follows_repository import FollowsRepository
 from twitter_tracker.repository.twitter_account_repository import TwitterAccountRepository
 
-logger = logging.getLogger("root")
+logger = logging.getLogger(__name__)
 
 
 # To set your environment variables in your terminal run the following line:

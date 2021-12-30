@@ -4,7 +4,7 @@ import logging
 from twitter_tracker.repository.twitter_account_repository import TwitterAccountRepository
 
 # Get an instance of a logger
-logger = logging.getLogger("root")
+logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
