@@ -34,7 +34,7 @@ class FollowsRepository:
         tracked_users_set: List[Follows] = Follows.objects.filter(user_id_follows_id__in=composite_ids)
         follows_id_set = [user.user_id_follows_id for user in tracked_users_set]
 
-        logger.info("{accounts_tracked} accounts already beingg tracked for {account_name}|{account_id}".format(
+        logger.info("{accounts_tracked} accounts already being tracked for {account_name}|{account_id}".format(
             account_id=tracked_user.twitter_id,
             account_name=tracked_user.username,
             accounts_tracked=len(tracked_users_set)))
@@ -45,8 +45,8 @@ class FollowsRepository:
                 logger.info("Tracking new user https://twitter.com/" + user["username"])
                 new_follow = Follows(
                     user_id_follows_id=user["id"] + "-" + tracked_user.twitter_id,
-                    user_id=user["id"],
-                    follows=tracked_user.twitter_id,
+                    followed_user_id=user["id"],
+                    follower_id=tracked_user.twitter_id,
                     follows_time=timezone.now()
                 )
                 new_follow.save()
