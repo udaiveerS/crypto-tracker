@@ -14,25 +14,18 @@ Crypto-tracker Python library for tracking key data (social/price/wallets) for a
 - Alerts for when whales distribute tokens in profolio  
 - Discover new unlisted coins 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+This is a standard Dganjo project python > 3.6.4  
 
-```bash
-pip install foobar
-```
-
-## Usage
-
+Current commands are supported, a SQL db is required to store data 
 ```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
+# Track a user and metrics 
+python manage.py track_new_user --username pierskicks
 
-# returns 'geese'
-foobar.pluralize('goose')
+# Track new follows 
+python manage.py fetch_followers    
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+
 ```
 
 ## Contributing
